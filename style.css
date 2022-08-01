@@ -98,6 +98,7 @@ body{
     align-items: center;
     justify-content: center;
     margin-left: 20px;
+    overflow: hidden;
 }
 .wrapper .preview-img img{
     max-width: 490px;
@@ -128,6 +129,13 @@ body{
     background: #5372f0;
     border: 1px solid #5372f0;
 
+}
+.controls .save-img.disable{
+    opacity: 0.5;
+    pointer-events: none;
+}
+.controls .save-img:hover{
+    background: #2c52ed;
 }
 
 @media screen and (max-width: 760px) {
